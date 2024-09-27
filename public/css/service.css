@@ -1,0 +1,57 @@
+#service {
+    height: max-content;
+    padding: 4rem 2rem;
+    background-color: var(--color-baseGray-800);
+}
+
+#serviceTitle {
+    text-align: center;
+    color: var(--color-baseGray-200);
+}
+
+#serviceTitle h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#serviceTitle h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--color-baseBlue-200);
+}
+
+.serviceGrid {
+    display: grid;
+    justify-content: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    grid-template-areas:
+    "Item1 Item2"
+    "Item3 Item4";
+}
+
+/* 
+
+## GRID ITEM ## 
+
+*/
+
+.item {
+    padding: 2rem;
+    width: 28rem;
+
+    background-color: var(--color-baseGray-600);
+    color: var(--color-baseGray-200);
+
+    border-radius: 1rem;
+}
+
+.item h2 {
+    font-size: 1.6rem;
+    margin: 2rem 0 0.8rem 0;
+}
+
+.item img {
+    border-radius: 0.8rem;
+}

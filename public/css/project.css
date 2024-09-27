@@ -1,0 +1,57 @@
+#project {
+    height: 100vh;
+    padding: 4rem 2rem;
+    background-color: var(--color-BaseWhite);
+}
+
+#project-Title {
+    text-align: center;
+}
+
+#project-Title h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#project-Title h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--color-baseBlue-400);
+}
+
+#projectGrid {
+    display: grid;
+    justify-content: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    grid-template-areas:
+
+    "P1 P2 P3"
+    "P4 P5 P6";
+}
+
+/* 
+
+## GRID ITEM ## 
+
+*/
+
+.projects {
+    padding: 2rem;
+    width: max-content;
+
+    background-color: var(--color-baseGray-200);
+
+    border-radius: 1rem;
+}
+
+.projects h2 {
+    font-size: 1.6rem;
+    margin: 2rem 0 0.8rem 0;
+}
+
+.projects img {
+    border-radius: 0.8rem;
+    width: 30rem;
+}
